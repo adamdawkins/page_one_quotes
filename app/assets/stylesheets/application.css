@@ -13,3 +13,6 @@
  *= require_tree .
  *= require_self
  */
+
+/* TAILWIND STUFF */
+.italic { font-style: italic }

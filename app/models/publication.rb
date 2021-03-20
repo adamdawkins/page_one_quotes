@@ -4,15 +4,16 @@
 #
 # Table name: publications
 #
-#  id               :bigint           not null, primary key
-#  publication_year :integer
-#  title            :string
-#  created_at       :datetime         not null
-#  updated_at       :datetime         not null
+#  id         :bigint           not null, primary key
+#  title      :string
+#  year       :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
 #
 class Publication < ApplicationRecord
   has_many :publishings, as: :publishable, dependent: :destroy
+  has_many :publishers, through: :publishings
 
   validates :title, presence: true, uniqueness: true
-  validates :publication_year, presence: true
+  validates :year, presence: true
 end

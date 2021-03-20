@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------------------------------------FINISHED--#
 
-v0.1.0:                                                                                      POMODOROS: (*) ( ) ( ) ( )
+v0.1.0:                                                                                      POMODOROS: (*) (*) ( ) ( )
  - Quote 1
-   [*] Add quotes
-   [ ] p/w protect adding area (Just use heroku console to create everything for now!)
-   [ ] Style the quote
+   [x] Add quotes
+   [x] p/w protect adding area (Just use heroku console to create everything for now!)
+   [*] Style the quote
        [ ] Bold first letter
-   [ ] Text of quote ("If music be the food of love, play on.")
-   [ ] Work ("Twelfth Night, Or What You Will")
-   [ ] Author ("William Shakespeare")
-   [ ] Year (1623)
-   [ ] Publication (Mr. William Shakespeare's Comedies, Histories & Tragedies)
-   [ ] Publishers
+   [x] Text of quote ("If music be the food of love, play on.")
+   [x] Work ("Twelfth Night, Or What You Will")
+   [x] Author ("William Shakespeare")
+   [x] Year (1623)
+   [x] Publication (Mr. William Shakespeare's Comedies, Histories & Tragedies)
+   [x] Publishers
 
 ----------------------------------------------------------------------------------------------------------IN PROGRESS--#
 
