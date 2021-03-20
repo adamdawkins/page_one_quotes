@@ -27,5 +27,5 @@ class Quote < ApplicationRecord
   belongs_to :publication, optional: true
 
   validates :text, presence: true, uniqueness: true
-  validates :work, presence: true, uniqueness: true
+  validates :work_title, presence: true, uniqueness: true
 end
