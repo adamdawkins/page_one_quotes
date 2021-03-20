@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------------------------------------FINISHED--#
 
-v0.0.1:
+v0.1.0:                                                                                      POMODOROS: (*) ( ) ( ) ( )
  - Quote 1
    [*] Add quotes
-   [ ] p/w protect adding area
+   [ ] p/w protect adding area (Just use heroku console to create everything for now!)
    [ ] Style the quote
        [ ] Bold first letter
    [ ] Text of quote ("If music be the food of love, play on.")
@@ -16,19 +16,19 @@ v0.0.1:
 ----------------------------------------------------------------------------------------------------------IN PROGRESS--#
 
 
-v0.0.2:
+v0.2.0:
   - Quote 2
 
 
-v0.0.3:
+v0.3.0:
   - Quote 3
   - Quote 4
 
-v0.0.4:
+v0.4.0:
   - Quote 4
   - Quote 5
 
-v0.0.5:
+v0.5.0:
   - Quote 6
   - Quote 7
   - Quote 8
