@@ -3,6 +3,7 @@
 # Table name: quotes
 #
 #  id             :bigint           not null, primary key
+#  number         :integer
 #  text           :text
 #  work_title     :string
 #  created_at     :datetime         not null
@@ -13,6 +14,7 @@
 # Indexes
 #
 #  index_quotes_on_author_id       (author_id)
+#  index_quotes_on_number          (number)
 #  index_quotes_on_publication_id  (publication_id)
 #
 # Foreign Keys

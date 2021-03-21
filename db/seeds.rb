@@ -17,7 +17,8 @@ Publishing.create([
 
 shakespeare = Author.find_or_create_by(last_name: "Shakespeare", first_name: "William")
 
-Quote.find_or_create_by(text: "If music be the food of love, play on.",
+Quote.find_or_create_by(number: 1,
+                        text: "If music be the food of love, play on.",
                         work_title: "Twelfth Night, or What You Will",
                         author: shakespeare,
                         publication: first_folio)

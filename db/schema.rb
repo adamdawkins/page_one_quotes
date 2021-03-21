@@ -46,6 +46,7 @@ ActiveRecord::Schema.define(version: 2021_03_20_215607) do
   end
 
   create_table "quotes", force: :cascade do |t|
+    t.integer "number"
     t.text "text"
     t.string "work_title"
     t.bigint "author_id", null: false
@@ -53,6 +54,7 @@ ActiveRecord::Schema.define(version: 2021_03_20_215607) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["author_id"], name: "index_quotes_on_author_id"
+    t.index ["number"], name: "index_quotes_on_number"
     t.index ["publication_id"], name: "index_quotes_on_publication_id"
   end
 
