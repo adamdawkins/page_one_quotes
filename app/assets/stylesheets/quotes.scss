@@ -10,6 +10,7 @@ body {
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .quote {
@@ -17,14 +18,13 @@ body {
   height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 16px;
 
   .number {
     flex: 0 1;
     height: 25vh;
-    font-size: 40px;
     font-weight: 700;
     text-align: center;
-    padding-top: 16px;
   }
 
   blockquote {
@@ -44,8 +44,6 @@ body {
 
     > p {
       grid-area: text;
-      font-size: 7vh;
-      line-height: 10vh;
       &:after {
         content: " ¶";
         opacity: .3;
@@ -54,19 +52,64 @@ body {
 
     footer {
       grid-area: footer;
-      font-size: 4vh;
-      line-height: 6vh;
       text-align: right;
 
       display: flex;
       flex-direction: column;
 
       .meta {
-        font-size: 2vh;
-        line-height: 3vh;
         opacity: .75;
         margin-top: auto;
       }
     }
   }
+}
+
+
+@mixin font-size($number) {
+  $line-height: ceil($number * 16px);
+  $font-size: ceil($line-height/1.4);
+
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+
+.quote-text {
+  @include font-size(2);
+}
+
+.number {
+  @include font-size(1.5);
+}
+
+.author, .work-title {
+  @include font-size(1.5);
+}
+
+.meta {
+  @include font-size(1);
+}
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+  // .quote-text {
+  //   line-height: 16px;
+  //   font-size: 12px;
+  // }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+   
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+
 }
