@@ -1,24 +1,26 @@
-<div class="number">
-  <%= @quote.number %>
-</div>
-<blockquote>
-  <p><%= @quote.text %></p>
-  <footer>
-    <div class="work-title">
-      <%= @quote.work_title %>
-    </div>
-    <div class="author">
-      <%= @quote.author.name %>
-    </div>
+<div class="quote">
+  <div class="number">
+    <%= @quote.number %>
+  </div>
+  <blockquote>
+    <p><%= nbsp @quote.text %></p>
+    <footer>
+      <div class="work-title italic">
+        <%= nbsp @quote.work_title %>
+      </div>
+      <div class="author">
+        <%= nbsp @quote.author.name %>
+      </div>
 
-    <div class="meta">
-    <% if @quote.publication.present? %>
-      Published in <span class="publication"><%= @quote.publication.title %></span>
-      <% if @quote.publication.publishers.any? %>
-        by <%= @quote.publication.publishers.map(&:name).join(", and ") %>.
-      <% end %>
-      <%= @quote.publication.year %>
-    <% end %>
-    </div>
-  </footer>
-</blockquote>
+      <div class="meta">
+        <% if @quote.publication.present? %>
+          Published in <span class="publication italic"><%= @quote.publication.title %></span>
+          <% if @quote.publication.publishers.any? %>
+            by <%= @quote.publication.publishers.map(&:name).join(", and ") %>.
+          <% end %>
+          <%= @quote.publication.year %>
+        <% end %>
+      </div>
+    </footer>
+  </blockquote>
+</div>
