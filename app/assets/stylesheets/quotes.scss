@@ -93,15 +93,41 @@ body {
  
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
-  // .quote-text {
-  //   line-height: 16px;
-  //   font-size: 12px;
-  // }
+.quote-text {
+  @include font-size(3);
+}
+
+.number {
+  @include font-size(2);
+}
+
+.author, .work-title {
+  @include font-size(2);
+}
+
+.meta {
+  @include font-size(1.5);
+}
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-   
+.quote-text {
+  @include font-size(4);
+}
+
+.number {
+  @include font-size(2.5);
+}
+
+.author, .work-title {
+  @include font-size(2.5);
+}
+
+.meta {
+  @include font-size(1.5);
+}
+     
 }
  
 /* Large devices (desktops, 992px and up) */
