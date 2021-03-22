@@ -8,14 +8,14 @@ v0.1.0:                                                                         
    [x] Year (1623)
    [x] Publication (Mr. William Shakespeare's Comedies, Histories & Tragedies)
    [x] Publishers
+v0.1.1:                                                                                      POMODOROS: (*)
+   [x] Style the quote
+       [x] Bold first letter
 -------------------------------------------------------------------------------------------------------------FINISHED--#
 
 
 ----------------------------------------------------------------------------------------------------------IN PROGRESS--#
 
-v0.1.1:                                                                                      POMODOROS: ( ) ( ) ( ) ( )
-   [*] Style the quote
-       [ ] Bold first letter
 
 v0.2.0:
   [ ] homepage redirect to latest quote with number
