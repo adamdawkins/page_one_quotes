@@ -13,22 +13,26 @@ v0.1.0:                                                                         
 
 ----------------------------------------------------------------------------------------------------------IN PROGRESS--#
 
-   [X] Style the quote
+v0.1.1:                                                                                      POMODOROS: ( ) ( ) ( ) ( )
+   [*] Style the quote
        [ ] Bold first letter
 
 v0.2.0:
-  - Quote 2
+  [ ] homepage redirect to latest quote with number
+  [ ] prettier URLs (/q/1/william-shakespeare/twelfth-night-or-whatever-you-will)
+  [ ] Title and other meta shit
+  [ ] Quote 2
 
 
 v0.3.0:
-  - Quote 3
-  - Quote 4
+  [ ] Quote 3
+  [ ] Quote 4
 
 v0.4.0:
-  - Quote 4
-  - Quote 5
+  [ ] Quote 4
+  [ ] Quote 5
 
 v0.5.0:
-  - Quote 6
-  - Quote 7
-  - Quote 8
+  [ ] Quote 6
+  [ ] Quote 7
+  [ ] Quote 8
